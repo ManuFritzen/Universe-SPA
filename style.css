@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.planoFundo  {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  }
+
+header {
+  display: flex;
+  width: 100%;
+  height: 122px;
+  padding: 10px;
+  margin: auto;
+  align-items: center;
+  
+}
+
+#logo {
+  margin: 32px;
+}
+
+nav {
+  display: flex;
+  width: 396px;
+  gap: 32px;
+  justify-content: space-around;
+}
+
+#erro {
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  color: #C4C4CC;
+  font-size: 21.6667px;
+  line-height: 22px; 
+  font-weight: 400;
+  
+}
+
+a:hover {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+
+#app {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+h1 {
+  width: 399px;
+  margin: 172px auto 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.subTitle {
+  margin-left: 72px;
+  text-align: start;
+}
+
+.subText {
+  width: 648px;
+  margin-left: 72px;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 160%;
+
+  
+
+}
+
+h1, p {
+  color: #E1E1E6;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 195px;
+  height: 48px;
+  background: none;
+  border-radius: 5px;
+  color: #E1E1E6;
+  border-color: #E1E1E6;
+  margin-top: 24px;
+  ;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background: #FFFFFF;
+  color: #02799D;
+}
+
+
+
+
+
